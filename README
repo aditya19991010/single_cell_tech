@@ -1,0 +1,23 @@
+Seurat Object
+  |- Assays:
+    |- RNA:
+        |- counts: raw UMI count matrix
+        |- data: normalized expression matrix (e.g., log-transformed)
+        |- scale.data: scaled gene expression data (for PCA)
+  |- Reductions:
+    |- pca: PCA results (cell coordinates in PC space)
+    |- umap: UMAP embedding (2D or 3D coordinates for cells)
+    |- tsne: t-SNE coordinates
+  |- meta.data:
+    |- Cell annotations (e.g., cell type labels)
+    |- Quality control metrics (e.g., number of genes detected, mitochondrial content)
+    |- Clustering results (e.g., cluster assignment for each cell)
+  |- Features:
+    |- Gene metadata (e.g., gene IDs, feature names)
+  |- misc:
+    |- Additional information (e.g., configuration settings, parameters)
+
+
+pbmc <- NormalizeData(pbmc)
+While this method of normalization is standard and widely used in scRNA-seq analysis, global-scaling relies on an assumption that each cell originally contains the same number of RNA molecules. We and others have developed alternative workflows for the single cell preprocessing that do not make these assumptions. For users who are interested, please check out our SCTransform() normalization workflow. The method is described in ourpaper, with a separate vignette using Seurat here. The use of SCTransform replaces the need to run NormalizeData, FindVariableFeatures, or ScaleData
+
