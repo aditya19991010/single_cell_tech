@@ -64,8 +64,8 @@ This project demonstrates the complete workflow for analyzing single-cell RNA se
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/scRNA-seq-portfolio.git
-   cd scRNA-seq-portfolio
+   git clone https://github.com/aditya19991010/single_cell_transcriptomics.git
+   cd single_cell_transcriptomics
    ```
 
 2. Install required R packages:
