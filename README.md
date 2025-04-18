@@ -4,7 +4,6 @@
 
 This repository contains a comprehensive single-cell RNA sequencing (scRNA-seq) analysis workflow of Peripheral Blood Mononuclear Cells (PBMCs) using the Seurat package in R. The analysis demonstrates proficiency in computational biology techniques and provides a reproducible workflow for scRNA-seq data processing.
 
-![UMAP_Visualization](../output/images/pbmc3k_umap.jpg)
 *UMAP visualization of PBMC cell types identified through unsupervised clustering and differential expression analysis.*
 
 ## 🧬 Analysis Overview
@@ -108,7 +107,7 @@ Each population was identified based on the expression of canonical marker genes
 
 ## 🤝 Contact Information
 
-Feel free to reach out if you have any questions or would like to discuss potential collaborations!
+Feel free to reach out if you have any questions or want to discuss potential collaborations!
 
 - **Email**: aditya19991010@gmail.com
 
